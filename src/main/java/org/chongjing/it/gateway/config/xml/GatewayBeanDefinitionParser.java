@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * Created by Administrator on 2017/6/15/015.
  */
-public class RpcBeanDefinitionParser implements BeanDefinitionParser {
+public class GatewayBeanDefinitionParser implements BeanDefinitionParser {
 
     @Override
     public BeanDefinition parse(Element element, ParserContext parserContext) {

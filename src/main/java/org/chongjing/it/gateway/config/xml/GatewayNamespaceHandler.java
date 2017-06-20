@@ -8,6 +8,6 @@ import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
 public class GatewayNamespaceHandler extends NamespaceHandlerSupport {
     @Override
     public void init() {
-        registerBeanDefinitionParser("gateway", new RpcBeanDefinitionParser());
+        registerBeanDefinitionParser("gateway", new GatewayBeanDefinitionParser());
     }
 }
